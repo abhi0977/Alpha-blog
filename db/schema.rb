@@ -18,5 +18,4 @@ ActiveRecord::Schema.define(version: 20171223114026) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
 end
