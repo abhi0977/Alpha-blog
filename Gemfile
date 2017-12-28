@@ -4,8 +4,10 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'jquery-rails'
-
+gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
